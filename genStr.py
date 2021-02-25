@@ -160,7 +160,7 @@ Must Join Channel for Bot Updates !!
         [
             [
                 InlineKeyboardButton('Support Group', url='https://t.me/ZectUserBot'),
-                InlineKeyboardButton('Developer', url='https://t.me/Swonit)
+                InlineKeyboardButton('Developer', url='https://t.me/xDenvil')
             ],
             [
                 InlineKeyboardButton('Bots Project', url='https://t.me/ZectUserBot'),
