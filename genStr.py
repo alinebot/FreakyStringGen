@@ -15,7 +15,7 @@ from pyrogram.errors import (
 API_TEXT = """Hi, {}.
 This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.
 
-By 
+By @ZectUserBot
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
@@ -124,7 +124,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@FreakyStringGenBot](tg://openmessage?user_id=1678378074) \nA Bot By @ProjectHackfreaks")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@DenvilString_bot](tg://openmessage?user_id=1678378074) \nA Bot By @ZectUserBot")
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
@@ -159,11 +159,11 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Support Group', url='https://t.me/HackfreaksSupport'),
-                InlineKeyboardButton('Developer', url='https://t.me/Swonit')
+                InlineKeyboardButton('Support Group', url='https://t.me/ZectUserBot'),
+                InlineKeyboardButton('Developer', url='https://t.me/xDenvil)
             ],
             [
-                InlineKeyboardButton('Bots Project', url='https://t.me/ProjectHackfreaks'),
+                InlineKeyboardButton('Bots Project', url='https://t.me/ZectUserBot'),
             ]
         ]
     )
